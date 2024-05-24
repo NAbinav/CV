@@ -22,12 +22,12 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgba(255,0,0,0.2);
+  border: 2px solid rgba(255,255,255,0.2);
   position: relative;
 }
 .card::before{
   background:radial-gradient(800px circle at var(--mouse-x)  var(--mouse-y),
-  rgba(255, 0, 0, 0.224),transparent 40%);
+  rgba(255, 255, 255, 0.224),transparent 40%);
   border-radius: inherit;
   content: "";
   height: 100%;
