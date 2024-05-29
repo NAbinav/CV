@@ -79,11 +79,15 @@ function Intro() {
           </div>
         </div>
         <div className="card" onClick={()=>{
-            window.scrollBy(0, 4*window.innerHeight);
+            window.scrollBy({
+                top:4*window.innerHeight,
+                left: 0,
+                behavior: "smooth",
+              });
 
         }}>
         <div className="card-content">
-            <p>CONTACT</p>
+            <p>PROJECT</p>
           </div>
         </div>
       </div>

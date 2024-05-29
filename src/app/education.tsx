@@ -1,13 +1,13 @@
 import React from 'react'
 
-const contact = () => {
+const Education = () => {
   return (
     <main className='hidden'>
     <div style={{ height: '100dvh',display:"flex", justifyContent:"center", alignContent:"center",alignItems:"center"}} className='hidden'>
-      This is contact section
+      This is education section
     </div>
     </main>
   )
 }
 
-export default contact
+export default Education

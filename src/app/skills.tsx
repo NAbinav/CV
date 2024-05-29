@@ -1,11 +1,10 @@
 "use client";
-import React from 'react'
-import { useEffect } from 'react';
+import React from 'react';
 const Skills = () => {
     
   return (
-    <main className='hidden'>
-    <div style={{ height: '100dvh',width:"100%",display:"flex", justifyContent:"center", alignContent:"center",alignItems:"center"}}>
+    <main className=''>
+    <div style={{ height: '100dvh',width:"100%",display:"flex", justifyContent:"center", alignContent:"center",alignItems:"center"}} className=''>
       This is skills section
     </div>
     </main>
